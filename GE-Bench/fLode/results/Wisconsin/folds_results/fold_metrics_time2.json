@@ -1,0 +1,1832 @@
+[
+  {
+    "split": 0,
+    "val": {
+      "loss": {
+        "train": 0.02266782335937023,
+        "val": 1.0336500406265259,
+        "test": 1.1749571561813354
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.75,
+        "test": 0.6470588235294118
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5351020408163265,
+        "test": 0.36866666666666664
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.49108013937282224,
+        "test": 0.47407407407407404
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.49833943833943833,
+        "test": 0.40647130647130647
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.2831763029098511,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.648661196231842,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.993255615234375,
+          "val": 32.993255615234375,
+          "test": 32.993255615234375
+        },
+        "after": {
+          "train": 30.040054321289062,
+          "val": 30.040054321289062,
+          "test": 30.040054321289062
+        },
+        "ratio": {
+          "train": 0.9104907512664795,
+          "val": 0.9104907512664795,
+          "test": 0.9104907512664795
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4413672983646393,
+          "val": 0.4413672983646393,
+          "test": 0.4413672983646393
+        },
+        "after": {
+          "train": 0.5603752732276917,
+          "val": 0.5603752732276917,
+          "test": 0.5603752732276917
+        },
+        "ratio": {
+          "train": 1.26963472366333,
+          "val": 1.26963472366333,
+          "test": 1.26963472366333
+        }
+      },
+      "inference_time": 0.012800455093383789
+    },
+    "test": {
+      "loss": {
+        "train": 0.009217498824000359,
+        "val": 0.9850519299507141,
+        "test": 1.2187585830688477
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.725,
+        "test": 0.6862745098039216
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5103030303030304,
+        "test": 0.42118758434547904
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4813240418118466,
+        "test": 0.4888888888888888
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.48887043189368773,
+        "test": 0.44666260904848853
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.3069198429584503,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.6976194381713867,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 31.44940948486328,
+          "val": 31.44940948486328,
+          "test": 31.44940948486328
+        },
+        "after": {
+          "train": 29.36016273498535,
+          "val": 29.36016273498535,
+          "test": 29.36016273498535
+        },
+        "ratio": {
+          "train": 0.933568000793457,
+          "val": 0.933568000793457,
+          "test": 0.933568000793457
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4461974799633026,
+          "val": 0.4461974799633026,
+          "test": 0.4461974799633026
+        },
+        "after": {
+          "train": 0.554604172706604,
+          "val": 0.554604172706604,
+          "test": 0.554604172706604
+        },
+        "ratio": {
+          "train": 1.2429567575454712,
+          "val": 1.2429567575454712,
+          "test": 1.2429567575454712
+        }
+      },
+      "inference_time": 0.01255345344543457
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.023907406255602837
+  },
+  {
+    "split": 1,
+    "val": {
+      "loss": {
+        "train": 0.15821684896945953,
+        "val": 0.9768424034118652,
+        "test": 0.6720815896987915
+      },
+      "acc": {
+        "train": 0.9833333333333333,
+        "val": 0.7,
+        "test": 0.8235294117647058
+      },
+      "precision": {
+        "train": 0.7908730158730158,
+        "val": 0.4085542364612132,
+        "test": 0.43589743589743596
+      },
+      "recall": {
+        "train": 0.7882352941176471,
+        "val": 0.4810404182073186,
+        "test": 0.4208333333333333
+      },
+      "f1": {
+        "train": 0.7893206907291415,
+        "val": 0.4400340971769543,
+        "test": 0.4191372549019608
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.20010437071323395,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.696499228477478,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 19.137434005737305,
+          "val": 19.137434005737305,
+          "test": 19.137434005737305
+        },
+        "after": {
+          "train": 21.706642150878906,
+          "val": 21.706642150878906,
+          "test": 21.706642150878906
+        },
+        "ratio": {
+          "train": 1.1342504024505615,
+          "val": 1.1342504024505615,
+          "test": 1.1342504024505615
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4058021605014801,
+          "val": 0.4058021605014801,
+          "test": 0.4058021605014801
+        },
+        "after": {
+          "train": 0.5522724986076355,
+          "val": 0.5522724986076355,
+          "test": 0.5522724986076355
+        },
+        "ratio": {
+          "train": 1.3609402179718018,
+          "val": 1.3609402179718018,
+          "test": 1.3609402179718018
+        }
+      },
+      "inference_time": 0.011564016342163086
+    },
+    "test": {
+      "loss": {
+        "train": 0.13235625624656677,
+        "val": 0.9481276273727417,
+        "test": 0.6384885907173157
+      },
+      "acc": {
+        "train": 0.9833333333333333,
+        "val": 0.7,
+        "test": 0.8431372549019608
+      },
+      "precision": {
+        "train": 0.7908730158730158,
+        "val": 0.4304347826086956,
+        "test": 0.5509009009009009
+      },
+      "recall": {
+        "train": 0.7882352941176471,
+        "val": 0.4765523396659441,
+        "test": 0.4270833333333333
+      },
+      "f1": {
+        "train": 0.7893206907291415,
+        "val": 0.4460569218016027,
+        "test": 0.44304347826086954
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.2125196009874344,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.7294533848762512,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 19.477924346923828,
+          "val": 19.477924346923828,
+          "test": 19.477924346923828
+        },
+        "after": {
+          "train": 22.13166046142578,
+          "val": 22.13166046142578,
+          "test": 22.13166046142578
+        },
+        "ratio": {
+          "train": 1.136243224143982,
+          "val": 1.136243224143982,
+          "test": 1.136243224143982
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4026338756084442,
+          "val": 0.4026338756084442,
+          "test": 0.4026338756084442
+        },
+        "after": {
+          "train": 0.545350968837738,
+          "val": 0.545350968837738,
+          "test": 0.545350968837738
+        },
+        "ratio": {
+          "train": 1.3544586896896362,
+          "val": 1.3544586896896362,
+          "test": 1.3544586896896362
+        }
+      },
+      "inference_time": 0.011644124984741211
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.1950320303440094
+  },
+  {
+    "split": 2,
+    "val": {
+      "loss": {
+        "train": 0.5844095349311829,
+        "val": 1.096500277519226,
+        "test": 1.1221634149551392
+      },
+      "acc": {
+        "train": 0.9583333333333334,
+        "val": 0.675,
+        "test": 0.6078431372549019
+      },
+      "precision": {
+        "train": 0.9811709601873536,
+        "val": 0.5637662337662338,
+        "test": 0.35909090909090907
+      },
+      "recall": {
+        "train": 0.9012270488132558,
+        "val": 0.616117216117216,
+        "test": 0.37142857142857144
+      },
+      "f1": {
+        "train": 0.935314629284208,
+        "val": 0.5827309236947792,
+        "test": 0.35
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.23058068752288818,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.5875585079193115,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 33.07806396484375,
+          "val": 33.07806396484375,
+          "test": 33.07806396484375
+        },
+        "after": {
+          "train": 33.76703643798828,
+          "val": 33.76703643798828,
+          "test": 33.76703643798828
+        },
+        "ratio": {
+          "train": 1.0208287239074707,
+          "val": 1.0208287239074707,
+          "test": 1.0208287239074707
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4351479411125183,
+          "val": 0.4351479411125183,
+          "test": 0.4351479411125183
+        },
+        "after": {
+          "train": 0.5749852657318115,
+          "val": 0.5749852657318115,
+          "test": 0.5749852657318115
+        },
+        "ratio": {
+          "train": 1.3213558197021484,
+          "val": 1.3213558197021484,
+          "test": 1.3213558197021484
+        }
+      },
+      "inference_time": 0.020407438278198242
+    },
+    "test": {
+      "loss": {
+        "train": 0.41945913434028625,
+        "val": 1.0332361459732056,
+        "test": 1.0648843050003052
+      },
+      "acc": {
+        "train": 0.9916666666666667,
+        "val": 0.6625,
+        "test": 0.6666666666666666
+      },
+      "precision": {
+        "train": 0.9966101694915255,
+        "val": 0.3955067920585162,
+        "test": 0.5755218216318785
+      },
+      "recall": {
+        "train": 0.9714285714285715,
+        "val": 0.40293040293040294,
+        "test": 0.4184523809523809
+      },
+      "f1": {
+        "train": 0.982905982905983,
+        "val": 0.3740265328475311,
+        "test": 0.41484071484071483
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.23882600665092468,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.5956910252571106,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 33.055824279785156,
+          "val": 33.055824279785156,
+          "test": 33.055824279785156
+        },
+        "after": {
+          "train": 33.18266296386719,
+          "val": 33.18266296386719,
+          "test": 33.18266296386719
+        },
+        "ratio": {
+          "train": 1.0038371086120605,
+          "val": 1.0038371086120605,
+          "test": 1.0038371086120605
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4460974633693695,
+          "val": 0.4460974633693695,
+          "test": 0.4460974633693695
+        },
+        "after": {
+          "train": 0.5739175081253052,
+          "val": 0.5739175081253052,
+          "test": 0.5739175081253052
+        },
+        "ratio": {
+          "train": 1.2865294218063354,
+          "val": 1.2865294218063354,
+          "test": 1.2865294218063354
+        }
+      },
+      "inference_time": 0.011488199234008789
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.6488962769508362
+  },
+  {
+    "split": 3,
+    "val": {
+      "loss": {
+        "train": 0.10623586177825928,
+        "val": 1.0314993858337402,
+        "test": 0.9062451124191284
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.7125,
+        "test": 0.7058823529411765
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.38224400871459696,
+        "test": 0.3923809523809524
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.5023076923076923,
+        "test": 0.48323232323232324
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4106096256684492,
+        "test": 0.42315018315018316
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.2124573439359665,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.7228347063064575,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 22.500194549560547,
+          "val": 22.500194549560547,
+          "test": 22.500194549560547
+        },
+        "after": {
+          "train": 24.585052490234375,
+          "val": 24.585052490234375,
+          "test": 24.585052490234375
+        },
+        "ratio": {
+          "train": 1.092659592628479,
+          "val": 1.092659592628479,
+          "test": 1.092659592628479
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.42848825454711914,
+          "val": 0.42848825454711914,
+          "test": 0.42848825454711914
+        },
+        "after": {
+          "train": 0.6853877305984497,
+          "val": 0.6853877305984497,
+          "test": 0.6853877305984497
+        },
+        "ratio": {
+          "train": 1.5995484590530396,
+          "val": 1.5995484590530396,
+          "test": 1.5995484590530396
+        }
+      },
+      "inference_time": 0.011390209197998047
+    },
+    "test": {
+      "loss": {
+        "train": 0.9142879843711853,
+        "val": 1.260072112083435,
+        "test": 1.2463576793670654
+      },
+      "acc": {
+        "train": 0.9666666666666667,
+        "val": 0.65,
+        "test": 0.7647058823529411
+      },
+      "precision": {
+        "train": 0.9868852459016393,
+        "val": 0.3509001014198783,
+        "test": 0.37363636363636366
+      },
+      "recall": {
+        "train": 0.885909090909091,
+        "val": 0.4101282051282051,
+        "test": 0.42181818181818187
+      },
+      "f1": {
+        "train": 0.9252358428590199,
+        "val": 0.3620612180803518,
+        "test": 0.3946572104018912
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.19030100107192993,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.5238367319107056,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.99189758300781,
+          "val": 32.99189758300781,
+          "test": 32.99189758300781
+        },
+        "after": {
+          "train": 32.808834075927734,
+          "val": 32.808834075927734,
+          "test": 32.808834075927734
+        },
+        "ratio": {
+          "train": 0.9944512844085693,
+          "val": 0.9944512844085693,
+          "test": 0.9944512844085693
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.43699949979782104,
+          "val": 0.43699949979782104,
+          "test": 0.43699949979782104
+        },
+        "after": {
+          "train": 0.653691291809082,
+          "val": 0.653691291809082,
+          "test": 0.653691291809082
+        },
+        "ratio": {
+          "train": 1.4958628416061401,
+          "val": 1.4958628416061401,
+          "test": 1.4958628416061401
+        }
+      },
+      "inference_time": 0.012830257415771484
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.139703169465065
+  },
+  {
+    "split": 4,
+    "val": {
+      "loss": {
+        "train": 0.029927801340818405,
+        "val": 0.8495898246765137,
+        "test": 0.8132606148719788
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.75,
+        "test": 0.6862745098039216
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.8253333333333334,
+        "test": 0.5581780538302278
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4977042198993419,
+        "test": 0.43508771929824563
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.5211065678507539,
+        "test": 0.4584785133565621
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.24838531017303467,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.834439754486084,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 19.471593856811523,
+          "val": 19.471593856811523,
+          "test": 19.471593856811523
+        },
+        "after": {
+          "train": 22.016204833984375,
+          "val": 22.016204833984375,
+          "test": 22.016204833984375
+        },
+        "ratio": {
+          "train": 1.130683183670044,
+          "val": 1.130683183670044,
+          "test": 1.130683183670044
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4431121349334717,
+          "val": 0.4431121349334717,
+          "test": 0.4431121349334717
+        },
+        "after": {
+          "train": 0.6304234266281128,
+          "val": 0.6304234266281128,
+          "test": 0.6304234266281128
+        },
+        "ratio": {
+          "train": 1.422717571258545,
+          "val": 1.422717571258545,
+          "test": 1.422717571258545
+        }
+      },
+      "inference_time": 0.009873390197753906
+    },
+    "test": {
+      "loss": {
+        "train": 0.109816774725914,
+        "val": 0.8638828992843628,
+        "test": 0.8337554931640625
+      },
+      "acc": {
+        "train": 0.9916666666666667,
+        "val": 0.725,
+        "test": 0.7254901960784313
+      },
+      "precision": {
+        "train": 0.9965517241379309,
+        "val": 0.5954545454545455,
+        "test": 0.5078260869565218
+      },
+      "recall": {
+        "train": 0.96,
+        "val": 0.4303600464576075,
+        "test": 0.4784210526315789
+      },
+      "f1": {
+        "train": 0.9760386473429952,
+        "val": 0.43170426065162903,
+        "test": 0.4866865434307295
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.20125561952590942,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.70014488697052,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 19.252660751342773,
+          "val": 19.252660751342773,
+          "test": 19.252660751342773
+        },
+        "after": {
+          "train": 21.037439346313477,
+          "val": 21.037439346313477,
+          "test": 21.037439346313477
+        },
+        "ratio": {
+          "train": 1.0927029848098755,
+          "val": 1.0927029848098755,
+          "test": 1.0927029848098755
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.455738365650177,
+          "val": 0.455738365650177,
+          "test": 0.455738365650177
+        },
+        "after": {
+          "train": 0.6496561765670776,
+          "val": 0.6496561765670776,
+          "test": 0.6496561765670776
+        },
+        "ratio": {
+          "train": 1.4255025386810303,
+          "val": 1.4255025386810303,
+          "test": 1.4255025386810303
+        }
+      },
+      "inference_time": 0.010777473449707031
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.03194015100598335
+  },
+  {
+    "split": 5,
+    "val": {
+      "loss": {
+        "train": 0.0710623487830162,
+        "val": 0.8524945974349976,
+        "test": 0.8955274224281311
+      },
+      "acc": {
+        "train": 0.9916666666666667,
+        "val": 0.775,
+        "test": 0.7450980392156863
+      },
+      "precision": {
+        "train": 0.9962264150943396,
+        "val": 0.5410714285714285,
+        "test": 0.3140151515151515
+      },
+      "recall": {
+        "train": 0.9913043478260869,
+        "val": 0.4815217391304348,
+        "test": 0.3476851851851852
+      },
+      "f1": {
+        "train": 0.9936507936507937,
+        "val": 0.4962800417972832,
+        "test": 0.3291666666666667
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.24209477007389069,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.725057065486908,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 23.934356689453125,
+          "val": 23.934356689453125,
+          "test": 23.934356689453125
+        },
+        "after": {
+          "train": 25.70783042907715,
+          "val": 25.70783042907715,
+          "test": 25.70783042907715
+        },
+        "ratio": {
+          "train": 1.0740973949432373,
+          "val": 1.0740973949432373,
+          "test": 1.0740973949432373
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4104979932308197,
+          "val": 0.4104979932308197,
+          "test": 0.4104979932308197
+        },
+        "after": {
+          "train": 0.5219293832778931,
+          "val": 0.5219293832778931,
+          "test": 0.5219293832778931
+        },
+        "ratio": {
+          "train": 1.2714542150497437,
+          "val": 1.2714542150497437,
+          "test": 1.2714542150497437
+        }
+      },
+      "inference_time": 0.011399269104003906
+    },
+    "test": {
+      "loss": {
+        "train": 0.11264187842607498,
+        "val": 0.8831542730331421,
+        "test": 0.9185118675231934
+      },
+      "acc": {
+        "train": 0.9833333333333333,
+        "val": 0.725,
+        "test": 0.7647058823529411
+      },
+      "precision": {
+        "train": 0.9925925925925926,
+        "val": 0.3585983827493261,
+        "test": 0.3219047619047619
+      },
+      "recall": {
+        "train": 0.9826086956521738,
+        "val": 0.38152173913043474,
+        "test": 0.35509259259259257
+      },
+      "f1": {
+        "train": 0.9871355060034304,
+        "val": 0.3639708117968987,
+        "test": 0.33548387096774196
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.21666568517684937,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.6772035956382751,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 23.31385612487793,
+          "val": 23.31385612487793,
+          "test": 23.31385612487793
+        },
+        "after": {
+          "train": 24.959407806396484,
+          "val": 24.959407806396484,
+          "test": 24.959407806396484
+        },
+        "ratio": {
+          "train": 1.0705825090408325,
+          "val": 1.0705825090408325,
+          "test": 1.0705825090408325
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.420825719833374,
+          "val": 0.420825719833374,
+          "test": 0.420825719833374
+        },
+        "after": {
+          "train": 0.5359565019607544,
+          "val": 0.5359565019607544,
+          "test": 0.5359565019607544
+        },
+        "ratio": {
+          "train": 1.2735830545425415,
+          "val": 1.2735830545425415,
+          "test": 1.2735830545425415
+        }
+      },
+      "inference_time": 0.011566162109375
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.08794379234313965
+  },
+  {
+    "split": 6,
+    "val": {
+      "loss": {
+        "train": 0.210478276014328,
+        "val": 1.0091171264648438,
+        "test": 0.9802691340446472
+      },
+      "acc": {
+        "train": 0.9666666666666667,
+        "val": 0.7125,
+        "test": 0.6470588235294118
+      },
+      "precision": {
+        "train": 0.9862068965517242,
+        "val": 0.40785185185185185,
+        "test": 0.2679310344827586
+      },
+      "recall": {
+        "train": 0.8400000000000001,
+        "val": 0.4195989304812834,
+        "test": 0.34
+      },
+      "f1": {
+        "train": 0.8595238095238095,
+        "val": 0.37593073593073595,
+        "test": 0.2995148247978437
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.19110360741615295,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.6495081782341003,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 19.494945526123047,
+          "val": 19.494945526123047,
+          "test": 19.494945526123047
+        },
+        "after": {
+          "train": 22.92681884765625,
+          "val": 22.92681884765625,
+          "test": 22.92681884765625
+        },
+        "ratio": {
+          "train": 1.1760390996932983,
+          "val": 1.1760390996932983,
+          "test": 1.1760390996932983
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.448706716299057,
+          "val": 0.448706716299057,
+          "test": 0.448706716299057
+        },
+        "after": {
+          "train": 0.572941243648529,
+          "val": 0.572941243648529,
+          "test": 0.572941243648529
+        },
+        "ratio": {
+          "train": 1.2768723964691162,
+          "val": 1.2768723964691162,
+          "test": 1.2768723964691162
+        }
+      },
+      "inference_time": 0.011934041976928711
+    },
+    "test": {
+      "loss": {
+        "train": 0.060339245945215225,
+        "val": 0.891791820526123,
+        "test": 0.8958032727241516
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.7,
+        "test": 0.7450980392156863
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.40695389266817833,
+        "test": 0.41008403361344536
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4145989304812834,
+        "test": 0.4423809523809523
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.3733839194513352,
+        "test": 0.4240384615384616
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.2690809369087219,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.8138119578361511,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 21.87562370300293,
+          "val": 21.87562370300293,
+          "test": 21.87562370300293
+        },
+        "after": {
+          "train": 26.021053314208984,
+          "val": 26.021053314208984,
+          "test": 26.021053314208984
+        },
+        "ratio": {
+          "train": 1.1894999742507935,
+          "val": 1.1894999742507935,
+          "test": 1.1894999742507935
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4207383394241333,
+          "val": 0.4207383394241333,
+          "test": 0.4207383394241333
+        },
+        "after": {
+          "train": 0.527222752571106,
+          "val": 0.527222752571106,
+          "test": 0.527222752571106
+        },
+        "ratio": {
+          "train": 1.253089427947998,
+          "val": 1.253089427947998,
+          "test": 1.253089427947998
+        }
+      },
+      "inference_time": 0.011708974838256836
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.2553885579109192
+  },
+  {
+    "split": 7,
+    "val": {
+      "loss": {
+        "train": 0.3460552990436554,
+        "val": 0.9706367254257202,
+        "test": 1.0123953819274902
+      },
+      "acc": {
+        "train": 0.975,
+        "val": 0.6625,
+        "test": 0.6274509803921569
+      },
+      "precision": {
+        "train": 0.9892857142857142,
+        "val": 0.4789128232236465,
+        "test": 0.3548410668615272
+      },
+      "recall": {
+        "train": 0.9400000000000001,
+        "val": 0.43337995337995333,
+        "test": 0.4098901098901099
+      },
+      "f1": {
+        "train": 0.9620278803765043,
+        "val": 0.4441860465116279,
+        "test": 0.37450475791489624
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.29523178935050964,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.6621336936950684,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.34063720703125,
+          "val": 32.34063720703125,
+          "test": 32.34063720703125
+        },
+        "after": {
+          "train": 35.30691146850586,
+          "val": 35.30691146850586,
+          "test": 35.30691146850586
+        },
+        "ratio": {
+          "train": 1.0917197465896606,
+          "val": 1.0917197465896606,
+          "test": 1.0917197465896606
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.47494009137153625,
+          "val": 0.47494009137153625,
+          "test": 0.47494009137153625
+        },
+        "after": {
+          "train": 0.6253083944320679,
+          "val": 0.6253083944320679,
+          "test": 0.6253083944320679
+        },
+        "ratio": {
+          "train": 1.316604733467102,
+          "val": 1.316604733467102,
+          "test": 1.316604733467102
+        }
+      },
+      "inference_time": 0.009548425674438477
+    },
+    "test": {
+      "loss": {
+        "train": 0.00994919240474701,
+        "val": 0.8857256174087524,
+        "test": 0.832339346408844
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.625,
+        "test": 0.7058823529411765
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.4165853658536586,
+        "test": 0.5639037433155081
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.417995337995338,
+        "test": 0.5842490842490842
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.40904403866809885,
+        "test": 0.5631720430107527
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.3258479833602905,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.710364580154419,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.67011260986328,
+          "val": 32.67011260986328,
+          "test": 32.67011260986328
+        },
+        "after": {
+          "train": 31.714536666870117,
+          "val": 31.714536666870117,
+          "test": 31.714536666870117
+        },
+        "ratio": {
+          "train": 0.9707507491111755,
+          "val": 0.9707507491111755,
+          "test": 0.9707507491111755
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4870540499687195,
+          "val": 0.4870540499687195,
+          "test": 0.4870540499687195
+        },
+        "after": {
+          "train": 0.6054078936576843,
+          "val": 0.6054078936576843,
+          "test": 0.6054078936576843
+        },
+        "ratio": {
+          "train": 1.2429994344711304,
+          "val": 1.2429994344711304,
+          "test": 1.2429994344711304
+        }
+      },
+      "inference_time": 0.00957345962524414
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.3861870765686035
+  },
+  {
+    "split": 8,
+    "val": {
+      "loss": {
+        "train": 0.0984797477722168,
+        "val": 0.8327623605728149,
+        "test": 0.851299524307251
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.775,
+        "test": 0.7058823529411765
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5827106227106228,
+        "test": 0.5038461538461538
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.5315412186379928,
+        "test": 0.4339130434782609
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.5354907305152846,
+        "test": 0.45143734913320166
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.2643861472606659,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.8150175213813782,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 23.366804122924805,
+          "val": 23.366804122924805,
+          "test": 23.366804122924805
+        },
+        "after": {
+          "train": 27.213451385498047,
+          "val": 27.213451385498047,
+          "test": 27.213451385498047
+        },
+        "ratio": {
+          "train": 1.1646201610565186,
+          "val": 1.1646201610565186,
+          "test": 1.1646201610565186
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4246198534965515,
+          "val": 0.4246198534965515,
+          "test": 0.4246198534965515
+        },
+        "after": {
+          "train": 0.5686110258102417,
+          "val": 0.5686110258102417,
+          "test": 0.5686110258102417
+        },
+        "ratio": {
+          "train": 1.3391060829162598,
+          "val": 1.3391060829162598,
+          "test": 1.3391060829162598
+        }
+      },
+      "inference_time": 0.011424779891967773
+    },
+    "test": {
+      "loss": {
+        "train": 0.011189176701009274,
+        "val": 1.1230380535125732,
+        "test": 0.9414232969284058
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6375,
+        "test": 0.7647058823529411
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.37333333333333335,
+        "test": 0.7480392156862744
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.38811230585424134,
+        "test": 0.6692753623188405
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.3692460183750028,
+        "test": 0.6790998217468805
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.32475796341896057,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.7383543848991394,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.05563735961914,
+          "val": 32.05563735961914,
+          "test": 32.05563735961914
+        },
+        "after": {
+          "train": 29.424266815185547,
+          "val": 29.424266815185547,
+          "test": 29.424266815185547
+        },
+        "ratio": {
+          "train": 0.9179123640060425,
+          "val": 0.9179123640060425,
+          "test": 0.9179123640060425
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.41565436124801636,
+          "val": 0.41565436124801636,
+          "test": 0.41565436124801636
+        },
+        "after": {
+          "train": 0.552358865737915,
+          "val": 0.552358865737915,
+          "test": 0.552358865737915
+        },
+        "ratio": {
+          "train": 1.3288898468017578,
+          "val": 1.3288898468017578,
+          "test": 1.3288898468017578
+        }
+      },
+      "inference_time": 0.01136326789855957
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.13579311966896057
+  },
+  {
+    "split": 9,
+    "val": {
+      "loss": {
+        "train": 0.026408659294247627,
+        "val": 0.9947923421859741,
+        "test": 1.185800552368164
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.7125,
+        "test": 0.6862745098039216
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.48966666666666675,
+        "test": 0.35350877192982455
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.538888888888889,
+        "test": 0.3736801242236025
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4920197044334976,
+        "test": 0.35327731092436976
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.30027809739112854,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.6776862740516663,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.66448974609375,
+          "val": 32.66448974609375,
+          "test": 32.66448974609375
+        },
+        "after": {
+          "train": 31.200958251953125,
+          "val": 31.200958251953125,
+          "test": 31.200958251953125
+        },
+        "ratio": {
+          "train": 0.9551950097084045,
+          "val": 0.9551950097084045,
+          "test": 0.9551950097084045
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.4508105516433716,
+          "val": 0.4508105516433716,
+          "test": 0.4508105516433716
+        },
+        "after": {
+          "train": 0.5270512104034424,
+          "val": 0.5270512104034424,
+          "test": 0.5270512104034424
+        },
+        "ratio": {
+          "train": 1.169119119644165,
+          "val": 1.169119119644165,
+          "test": 1.169119119644165
+        }
+      },
+      "inference_time": 0.011203289031982422
+    },
+    "test": {
+      "loss": {
+        "train": 0.07889235764741898,
+        "val": 0.9814450144767761,
+        "test": 1.0804638862609863
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6875,
+        "test": 0.7450980392156863
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.3477647058823529,
+        "test": 0.599092558983666
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.40555555555555556,
+        "test": 0.4448757763975156
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.3529880197322058,
+        "test": 0.4536752136752137
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.30138713121414185,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.6785470843315125,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 32.637210845947266,
+          "val": 32.637210845947266,
+          "test": 32.637210845947266
+        },
+        "after": {
+          "train": 32.525291442871094,
+          "val": 32.525291442871094,
+          "test": 32.525291442871094
+        },
+        "ratio": {
+          "train": 0.9965708255767822,
+          "val": 0.9965708255767822,
+          "test": 0.9965708255767822
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.45640745759010315,
+          "val": 0.45640745759010315,
+          "test": 0.45640745759010315
+        },
+        "after": {
+          "train": 0.5345362424850464,
+          "val": 0.5345362424850464,
+          "test": 0.5345362424850464
+        },
+        "ratio": {
+          "train": 1.1711820363998413,
+          "val": 1.1711820363998413,
+          "test": 1.1711820363998413
+        }
+      },
+      "inference_time": 0.01367807388305664
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Wisconsin",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 2,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.01,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 109513,
+    "best_val_loss": 0.028350748121738434
+  }
+]

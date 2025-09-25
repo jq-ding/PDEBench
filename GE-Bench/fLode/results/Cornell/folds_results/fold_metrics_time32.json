@@ -1,0 +1,1832 @@
+[
+  {
+    "split": 0,
+    "val": {
+      "loss": {
+        "train": 0.018005041405558586,
+        "val": 1.1961406469345093,
+        "test": 1.1073566675186157
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6949152542372882,
+        "test": 0.5945945945945946
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5696236559139785,
+        "test": 0.4245098039215686
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.5888877251780478,
+        "test": 0.44000000000000006
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.5648146967571932,
+        "test": 0.42878787878787883
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.5127484798431396,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.236345887184143,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 43.52499771118164,
+          "val": 43.52499771118164,
+          "test": 43.52499771118164
+        },
+        "after": {
+          "train": 37.69253158569336,
+          "val": 37.69253158569336,
+          "test": 37.69253158569336
+        },
+        "ratio": {
+          "train": 0.865997314453125,
+          "val": 0.865997314453125,
+          "test": 0.865997314453125
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.67296302318573,
+          "val": 0.67296302318573,
+          "test": 0.67296302318573
+        },
+        "after": {
+          "train": 0.6278391480445862,
+          "val": 0.6278391480445862,
+          "test": 0.6278391480445862
+        },
+        "ratio": {
+          "train": 0.9329474568367004,
+          "val": 0.9329474568367004,
+          "test": 0.9329474568367004
+        }
+      },
+      "inference_time": 0.028929471969604492
+    },
+    "test": {
+      "loss": {
+        "train": 0.39770758152008057,
+        "val": 1.0434311628341675,
+        "test": 1.1104997396469116
+      },
+      "acc": {
+        "train": 0.9770114942528736,
+        "val": 0.6440677966101694,
+        "test": 0.7297297297297297
+      },
+      "precision": {
+        "train": 0.9834834834834835,
+        "val": 0.5475524475524475,
+        "test": 0.564141414141414
+      },
+      "recall": {
+        "train": 0.9527777777777778,
+        "val": 0.415427314620863,
+        "test": 0.52
+      },
+      "f1": {
+        "train": 0.9664479490426308,
+        "val": 0.43797979797979797,
+        "test": 0.5210594052699316
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.49647536873817444,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2828729152679443,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 42.60056686401367,
+          "val": 42.60056686401367,
+          "test": 42.60056686401367
+        },
+        "after": {
+          "train": 38.38148498535156,
+          "val": 38.38148498535156,
+          "test": 38.38148498535156
+        },
+        "ratio": {
+          "train": 0.9009618163108826,
+          "val": 0.9009618163108826,
+          "test": 0.9009618163108826
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6762304902076721,
+          "val": 0.6762304902076721,
+          "test": 0.6762304902076721
+        },
+        "after": {
+          "train": 0.6709961891174316,
+          "val": 0.6709961891174316,
+          "test": 0.6709961891174316
+        },
+        "ratio": {
+          "train": 0.9922595620155334,
+          "val": 0.9922595620155334,
+          "test": 0.9922595620155334
+        }
+      },
+      "inference_time": 0.03228330612182617
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.018107019364833832
+  },
+  {
+    "split": 1,
+    "val": {
+      "loss": {
+        "train": 0.31220144033432007,
+        "val": 1.198203682899475,
+        "test": 1.2720295190811157
+      },
+      "acc": {
+        "train": 0.9885057471264368,
+        "val": 0.6440677966101694,
+        "test": 0.4864864864864865
+      },
+      "precision": {
+        "train": 0.9945945945945945,
+        "val": 0.38999236058059583,
+        "test": 0.3230434782608696
+      },
+      "recall": {
+        "train": 0.9666666666666668,
+        "val": 0.4197435897435898,
+        "test": 0.3458333333333333
+      },
+      "f1": {
+        "train": 0.9790784557907845,
+        "val": 0.3999854312354313,
+        "test": 0.32474192474192476
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4562835693359375,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2229892015457153,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 41.841278076171875,
+          "val": 41.841278076171875,
+          "test": 41.841278076171875
+        },
+        "after": {
+          "train": 36.29627990722656,
+          "val": 36.29627990722656,
+          "test": 36.29627990722656
+        },
+        "ratio": {
+          "train": 0.8674753904342651,
+          "val": 0.8674753904342651,
+          "test": 0.8674753904342651
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.671441912651062,
+          "val": 0.671441912651062,
+          "test": 0.671441912651062
+        },
+        "after": {
+          "train": 0.6489824652671814,
+          "val": 0.6489824652671814,
+          "test": 0.6489824652671814
+        },
+        "ratio": {
+          "train": 0.9665504097938538,
+          "val": 0.9665504097938538,
+          "test": 0.9665504097938538
+        }
+      },
+      "inference_time": 0.030370235443115234
+    },
+    "test": {
+      "loss": {
+        "train": 0.05121239274740219,
+        "val": 1.293984055519104,
+        "test": 1.5084630250930786
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.5932203389830508,
+        "test": 0.5405405405405406
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.35432676518883416,
+        "test": 0.34904761904761905
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.39974358974358976,
+        "test": 0.39166666666666666
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.37186937356428884,
+        "test": 0.3623403623403624
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.49384182691574097,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.250012993812561,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 45.60940170288086,
+          "val": 45.60940170288086,
+          "test": 45.60940170288086
+        },
+        "after": {
+          "train": 35.81050491333008,
+          "val": 35.81050491333008,
+          "test": 35.81050491333008
+        },
+        "ratio": {
+          "train": 0.7851561903953552,
+          "val": 0.7851561903953552,
+          "test": 0.7851561903953552
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.655484139919281,
+          "val": 0.655484139919281,
+          "test": 0.655484139919281
+        },
+        "after": {
+          "train": 0.5936300158500671,
+          "val": 0.5936300158500671,
+          "test": 0.5936300158500671
+        },
+        "ratio": {
+          "train": 0.9056359529495239,
+          "val": 0.9056359529495239,
+          "test": 0.9056359529495239
+        }
+      },
+      "inference_time": 0.02920079231262207
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.33293402194976807
+  },
+  {
+    "split": 2,
+    "val": {
+      "loss": {
+        "train": 0.0211323369294405,
+        "val": 1.365187406539917,
+        "test": 1.5164231061935425
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.576271186440678,
+        "test": 0.5405405405405406
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5347652347652347,
+        "test": 0.3363636363636363
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.5073015873015873,
+        "test": 0.325
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.5123136345615531,
+        "test": 0.32857142857142857
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.49040675163269043,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2242580652236938,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 43.19431686401367,
+          "val": 43.19431686401367,
+          "test": 43.19431686401367
+        },
+        "after": {
+          "train": 35.912254333496094,
+          "val": 35.912254333496094,
+          "test": 35.912254333496094
+        },
+        "ratio": {
+          "train": 0.8314115405082703,
+          "val": 0.8314115405082703,
+          "test": 0.8314115405082703
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6540834903717041,
+          "val": 0.6540834903717041,
+          "test": 0.6540834903717041
+        },
+        "after": {
+          "train": 0.6207718849182129,
+          "val": 0.6207718849182129,
+          "test": 0.6207718849182129
+        },
+        "ratio": {
+          "train": 0.9490713477134705,
+          "val": 0.9490713477134705,
+          "test": 0.9490713477134705
+        }
+      },
+      "inference_time": 0.0317232608795166
+    },
+    "test": {
+      "loss": {
+        "train": 0.011173153296113014,
+        "val": 1.2337853908538818,
+        "test": 1.028390884399414
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.5423728813559322,
+        "test": 0.7027027027027027
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5392857142857144,
+        "test": 0.5552380952380952
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4698412698412698,
+        "test": 0.52
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4766439909297052,
+        "test": 0.5232162958992227
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.5006809234619141,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2185719013214111,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 39.93107223510742,
+          "val": 39.93107223510742,
+          "test": 39.93107223510742
+        },
+        "after": {
+          "train": 32.81681442260742,
+          "val": 32.81681442260742,
+          "test": 32.81681442260742
+        },
+        "ratio": {
+          "train": 0.821836531162262,
+          "val": 0.821836531162262,
+          "test": 0.821836531162262
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6560096144676208,
+          "val": 0.6560096144676208,
+          "test": 0.6560096144676208
+        },
+        "after": {
+          "train": 0.6874272227287292,
+          "val": 0.6874272227287292,
+          "test": 0.6874272227287292
+        },
+        "ratio": {
+          "train": 1.0478919744491577,
+          "val": 1.0478919744491577,
+          "test": 1.0478919744491577
+        }
+      },
+      "inference_time": 0.03390240669250488
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.022116445004940033
+  },
+  {
+    "split": 3,
+    "val": {
+      "loss": {
+        "train": 0.012790177017450333,
+        "val": 1.3843510150909424,
+        "test": 1.3745098114013672
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.576271186440678,
+        "test": 0.6216216216216216
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.48671328671328673,
+        "test": 0.5241666666666667
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.508,
+        "test": 0.5380952380952381
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4969187675070028,
+        "test": 0.5048196248196247
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.48832881450653076,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.1542999744415283,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 42.04734420776367,
+          "val": 42.04734420776367,
+          "test": 42.04734420776367
+        },
+        "after": {
+          "train": 36.09354019165039,
+          "val": 36.09354019165039,
+          "test": 36.09354019165039
+        },
+        "ratio": {
+          "train": 0.8584023714065552,
+          "val": 0.8584023714065552,
+          "test": 0.8584023714065552
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.7028879523277283,
+          "val": 0.7028879523277283,
+          "test": 0.7028879523277283
+        },
+        "after": {
+          "train": 0.6828856468200684,
+          "val": 0.6828856468200684,
+          "test": 0.6828856468200684
+        },
+        "ratio": {
+          "train": 0.9715426564216614,
+          "val": 0.9715426564216614,
+          "test": 0.9715426564216614
+        }
+      },
+      "inference_time": 0.03464198112487793
+    },
+    "test": {
+      "loss": {
+        "train": 0.013768277131021023,
+        "val": 1.3788855075836182,
+        "test": 1.339922547340393
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.5423728813559322,
+        "test": 0.6486486486486487
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.4550802139037433,
+        "test": 0.5794117647058823
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4886666666666667,
+        "test": 0.588095238095238
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4680816126890962,
+        "test": 0.55405669599218
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4770333468914032,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.1297582387924194,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 42.334842681884766,
+          "val": 42.334842681884766,
+          "test": 42.334842681884766
+        },
+        "after": {
+          "train": 36.40650939941406,
+          "val": 36.40650939941406,
+          "test": 36.40650939941406
+        },
+        "ratio": {
+          "train": 0.8599656224250793,
+          "val": 0.8599656224250793,
+          "test": 0.8599656224250793
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6922950744628906,
+          "val": 0.6922950744628906,
+          "test": 0.6922950744628906
+        },
+        "after": {
+          "train": 0.6856004595756531,
+          "val": 0.6856004595756531,
+          "test": 0.6856004595756531
+        },
+        "ratio": {
+          "train": 0.9903298020362854,
+          "val": 0.9903298020362854,
+          "test": 0.9903298020362854
+        }
+      },
+      "inference_time": 0.029947996139526367
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.01297063659876585
+  },
+  {
+    "split": 4,
+    "val": {
+      "loss": {
+        "train": 0.7121370434761047,
+        "val": 1.376306176185608,
+        "test": 1.2052524089813232
+      },
+      "acc": {
+        "train": 0.9080459770114943,
+        "val": 0.576271186440678,
+        "test": 0.5405405405405406
+      },
+      "precision": {
+        "train": 0.9604895104895105,
+        "val": 0.4027272727272727,
+        "test": 0.4416666666666666
+      },
+      "recall": {
+        "train": 0.7785714285714286,
+        "val": 0.4012698412698413,
+        "test": 0.35770308123249295
+      },
+      "f1": {
+        "train": 0.8237273256881099,
+        "val": 0.36354234001292823,
+        "test": 0.33397212543554006
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.3962757885456085,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.095210313796997,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 39.39875411987305,
+          "val": 39.39875411987305,
+          "test": 39.39875411987305
+        },
+        "after": {
+          "train": 34.459259033203125,
+          "val": 34.459259033203125,
+          "test": 34.459259033203125
+        },
+        "ratio": {
+          "train": 0.8746281266212463,
+          "val": 0.8746281266212463,
+          "test": 0.8746281266212463
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6919597387313843,
+          "val": 0.6919597387313843,
+          "test": 0.6919597387313843
+        },
+        "after": {
+          "train": 0.6737751364707947,
+          "val": 0.6737751364707947,
+          "test": 0.6737751364707947
+        },
+        "ratio": {
+          "train": 0.973720133304596,
+          "val": 0.973720133304596,
+          "test": 0.973720133304596
+        }
+      },
+      "inference_time": 0.03152751922607422
+    },
+    "test": {
+      "loss": {
+        "train": 1.3228002786636353,
+        "val": 1.512173056602478,
+        "test": 1.4809424877166748
+      },
+      "acc": {
+        "train": 0.7241379310344828,
+        "val": 0.5423728813559322,
+        "test": 0.6486486486486487
+      },
+      "precision": {
+        "train": 0.672463768115942,
+        "val": 0.4708245243128964,
+        "test": 0.475925925925926
+      },
+      "recall": {
+        "train": 0.6046409266409267,
+        "val": 0.36079365079365083,
+        "test": 0.40476190476190477
+      },
+      "f1": {
+        "train": 0.6259740259740261,
+        "val": 0.34010463438798155,
+        "test": 0.37168831168831173
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.31269970536231995,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 0.9334871768951416,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 35.2573356628418,
+          "val": 35.2573356628418,
+          "test": 35.2573356628418
+        },
+        "after": {
+          "train": 24.255413055419922,
+          "val": 24.255413055419922,
+          "test": 24.255413055419922
+        },
+        "ratio": {
+          "train": 0.6879536509513855,
+          "val": 0.6879536509513855,
+          "test": 0.6879536509513855
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.651109516620636,
+          "val": 0.651109516620636,
+          "test": 0.651109516620636
+        },
+        "after": {
+          "train": 0.732253909111023,
+          "val": 0.732253909111023,
+          "test": 0.732253909111023
+        },
+        "ratio": {
+          "train": 1.1246248483657837,
+          "val": 1.1246248483657837,
+          "test": 1.1246248483657837
+        }
+      },
+      "inference_time": 0.036620140075683594
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.7452174425125122
+  },
+  {
+    "split": 5,
+    "val": {
+      "loss": {
+        "train": 0.2990623414516449,
+        "val": 1.1492563486099243,
+        "test": 1.2439587116241455
+      },
+      "acc": {
+        "train": 0.9885057471264368,
+        "val": 0.6271186440677966,
+        "test": 0.4864864864864865
+      },
+      "precision": {
+        "train": 0.9952380952380953,
+        "val": 0.4824242424242424,
+        "test": 0.302
+      },
+      "recall": {
+        "train": 0.9777777777777779,
+        "val": 0.5082251082251081,
+        "test": 0.28591800356506236
+      },
+      "f1": {
+        "train": 0.9858256555634302,
+        "val": 0.49249597423510466,
+        "test": 0.2633333333333333
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.43285059928894043,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.1247785091400146,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 42.81932067871094,
+          "val": 42.81932067871094,
+          "test": 42.81932067871094
+        },
+        "after": {
+          "train": 37.995521545410156,
+          "val": 37.995521545410156,
+          "test": 37.995521545410156
+        },
+        "ratio": {
+          "train": 0.8873452544212341,
+          "val": 0.8873452544212341,
+          "test": 0.8873452544212341
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6954652667045593,
+          "val": 0.6954652667045593,
+          "test": 0.6954652667045593
+        },
+        "after": {
+          "train": 0.6726862192153931,
+          "val": 0.6726862192153931,
+          "test": 0.6726862192153931
+        },
+        "ratio": {
+          "train": 0.9672462940216064,
+          "val": 0.9672462940216064,
+          "test": 0.9672462940216064
+        }
+      },
+      "inference_time": 0.030626773834228516
+    },
+    "test": {
+      "loss": {
+        "train": 0.03848210722208023,
+        "val": 1.2520885467529297,
+        "test": 1.3768856525421143
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6101694915254238,
+        "test": 0.5675675675675675
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.4604395604395604,
+        "test": 0.3273015873015873
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4998917748917748,
+        "test": 0.3889483065953654
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.47895238095238096,
+        "test": 0.3291291291291291
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.48155251145362854,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2028894424438477,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 44.89656448364258,
+          "val": 44.89656448364258,
+          "test": 44.89656448364258
+        },
+        "after": {
+          "train": 35.7978630065918,
+          "val": 35.7978630065918,
+          "test": 35.7978630065918
+        },
+        "ratio": {
+          "train": 0.7973408102989197,
+          "val": 0.7973408102989197,
+          "test": 0.7973408102989197
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6536703109741211,
+          "val": 0.6536703109741211,
+          "test": 0.6536703109741211
+        },
+        "after": {
+          "train": 0.5938670039176941,
+          "val": 0.5938670039176941,
+          "test": 0.5938670039176941
+        },
+        "ratio": {
+          "train": 0.9085115194320679,
+          "val": 0.9085115194320679,
+          "test": 0.9085115194320679
+        }
+      },
+      "inference_time": 0.03200340270996094
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.3196847140789032
+  },
+  {
+    "split": 6,
+    "val": {
+      "loss": {
+        "train": 0.2768188416957855,
+        "val": 1.2628642320632935,
+        "test": 1.1996902227401733
+      },
+      "acc": {
+        "train": 0.9885057471264368,
+        "val": 0.559322033898305,
+        "test": 0.6216216216216216
+      },
+      "precision": {
+        "train": 0.9955555555555555,
+        "val": 0.46071428571428574,
+        "test": 0.5560784313725491
+      },
+      "recall": {
+        "train": 0.9777777777777779,
+        "val": 0.4274285714285714,
+        "test": 0.5692307692307692
+      },
+      "f1": {
+        "train": 0.985988103106411,
+        "val": 0.4042375168690958,
+        "test": 0.5396491228070175
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4721178412437439,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2281818389892578,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 41.900115966796875,
+          "val": 41.900115966796875,
+          "test": 41.900115966796875
+        },
+        "after": {
+          "train": 36.86705780029297,
+          "val": 36.86705780029297,
+          "test": 36.86705780029297
+        },
+        "ratio": {
+          "train": 0.8798795938491821,
+          "val": 0.8798795938491821,
+          "test": 0.8798795938491821
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6528569459915161,
+          "val": 0.6528569459915161,
+          "test": 0.6528569459915161
+        },
+        "after": {
+          "train": 0.6638087630271912,
+          "val": 0.6638087630271912,
+          "test": 0.6638087630271912
+        },
+        "ratio": {
+          "train": 1.0167752504348755,
+          "val": 1.0167752504348755,
+          "test": 1.0167752504348755
+        }
+      },
+      "inference_time": 0.029519081115722656
+    },
+    "test": {
+      "loss": {
+        "train": 0.012044060975313187,
+        "val": 1.501652479171753,
+        "test": 1.2560865879058838
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.5084745762711864,
+        "test": 0.7027027027027027
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.3843589743589743,
+        "test": 0.6325396825396825
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.372,
+        "test": 0.6338461538461538
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.37521885521885523,
+        "test": 0.6191213327436238
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.5059859752655029,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.3629560470581055,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 39.1859130859375,
+          "val": 39.1859130859375,
+          "test": 39.1859130859375
+        },
+        "after": {
+          "train": 33.51136779785156,
+          "val": 33.51136779785156,
+          "test": 33.51136779785156
+        },
+        "ratio": {
+          "train": 0.8551891446113586,
+          "val": 0.8551891446113586,
+          "test": 0.8551891446113586
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6637923717498779,
+          "val": 0.6637923717498779,
+          "test": 0.6637923717498779
+        },
+        "after": {
+          "train": 0.6195893287658691,
+          "val": 0.6195893287658691,
+          "test": 0.6195893287658691
+        },
+        "ratio": {
+          "train": 0.9334083199501038,
+          "val": 0.9334083199501038,
+          "test": 0.9334083199501038
+        }
+      },
+      "inference_time": 0.030959367752075195
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.2975221276283264
+  },
+  {
+    "split": 7,
+    "val": {
+      "loss": {
+        "train": 0.5866433382034302,
+        "val": 1.1187520027160645,
+        "test": 1.267864465713501
+      },
+      "acc": {
+        "train": 0.9310344827586207,
+        "val": 0.6779661016949152,
+        "test": 0.5675675675675675
+      },
+      "precision": {
+        "train": 0.955125486037469,
+        "val": 0.5605555555555555,
+        "test": 0.5
+      },
+      "recall": {
+        "train": 0.8583333333333332,
+        "val": 0.502958152958153,
+        "test": 0.3859943977591036
+      },
+      "f1": {
+        "train": 0.8939072039072039,
+        "val": 0.5034699940582293,
+        "test": 0.39906873614190685
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4421987235546112,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.1879113912582397,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 40.73720932006836,
+          "val": 40.73720932006836,
+          "test": 40.73720932006836
+        },
+        "after": {
+          "train": 36.367210388183594,
+          "val": 36.367210388183594,
+          "test": 36.367210388183594
+        },
+        "ratio": {
+          "train": 0.8927270770072937,
+          "val": 0.8927270770072937,
+          "test": 0.8927270770072937
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.646437406539917,
+          "val": 0.646437406539917,
+          "test": 0.646437406539917
+        },
+        "after": {
+          "train": 0.7017048001289368,
+          "val": 0.7017048001289368,
+          "test": 0.7017048001289368
+        },
+        "ratio": {
+          "train": 1.0854953527450562,
+          "val": 1.0854953527450562,
+          "test": 1.0854953527450562
+        }
+      },
+      "inference_time": 0.033275604248046875
+    },
+    "test": {
+      "loss": {
+        "train": 0.06777053326368332,
+        "val": 1.1556261777877808,
+        "test": 1.3038333654403687
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6271186440677966,
+        "test": 0.6486486486486487
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5333333333333333,
+        "test": 0.572463768115942
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.46207792207792214,
+        "test": 0.4549019607843137
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4718905472636816,
+        "test": 0.4576470588235294
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.492097407579422,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.23397958278656,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 46.02773666381836,
+          "val": 46.02773666381836,
+          "test": 46.02773666381836
+        },
+        "after": {
+          "train": 38.42853927612305,
+          "val": 38.42853927612305,
+          "test": 38.42853927612305
+        },
+        "ratio": {
+          "train": 0.8348996043205261,
+          "val": 0.8348996043205261,
+          "test": 0.8348996043205261
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6511396169662476,
+          "val": 0.6511396169662476,
+          "test": 0.6511396169662476
+        },
+        "after": {
+          "train": 0.6300631761550903,
+          "val": 0.6300631761550903,
+          "test": 0.6300631761550903
+        },
+        "ratio": {
+          "train": 0.967631459236145,
+          "val": 0.967631459236145,
+          "test": 0.967631459236145
+        }
+      },
+      "inference_time": 0.031011343002319336
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.61667400598526
+  },
+  {
+    "split": 8,
+    "val": {
+      "loss": {
+        "train": 0.043572455644607544,
+        "val": 1.04496169090271,
+        "test": 1.560592532157898
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.711864406779661,
+        "test": 0.5405405405405406
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.6452380952380953,
+        "test": 0.45396825396825397
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.5623737373737374,
+        "test": 0.5582417582417583
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.5142483660130719,
+        "test": 0.4744623655913978
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.48648524284362793,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.2091633081436157,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 45.646324157714844,
+          "val": 45.646324157714844,
+          "test": 45.646324157714844
+        },
+        "after": {
+          "train": 37.90604782104492,
+          "val": 37.90604782104492,
+          "test": 37.90604782104492
+        },
+        "ratio": {
+          "train": 0.8304293751716614,
+          "val": 0.8304293751716614,
+          "test": 0.8304293751716614
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6643334031105042,
+          "val": 0.6643334031105042,
+          "test": 0.6643334031105042
+        },
+        "after": {
+          "train": 0.6422874331474304,
+          "val": 0.6422874331474304,
+          "test": 0.6422874331474304
+        },
+        "ratio": {
+          "train": 0.9668148756027222,
+          "val": 0.9668148756027222,
+          "test": 0.9668148756027222
+        }
+      },
+      "inference_time": 0.029065370559692383
+    },
+    "test": {
+      "loss": {
+        "train": 0.059432726353406906,
+        "val": 1.0428202152252197,
+        "test": 1.5876095294952393
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6440677966101694,
+        "test": 0.5405405405405406
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5182539682539682,
+        "test": 0.45396825396825397
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.4674242424242424,
+        "test": 0.5582417582417583
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.40684610075914424,
+        "test": 0.4744623655913978
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4786336421966553,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.1969212293624878,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 45.6353874206543,
+          "val": 45.6353874206543,
+          "test": 45.6353874206543
+        },
+        "after": {
+          "train": 38.11574172973633,
+          "val": 38.11574172973633,
+          "test": 38.11574172973633
+        },
+        "ratio": {
+          "train": 0.835223376750946,
+          "val": 0.835223376750946,
+          "test": 0.835223376750946
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6625593304634094,
+          "val": 0.6625593304634094,
+          "test": 0.6625593304634094
+        },
+        "after": {
+          "train": 0.6428489089012146,
+          "val": 0.6428489089012146,
+          "test": 0.6428489089012146
+        },
+        "ratio": {
+          "train": 0.9702510833740234,
+          "val": 0.9702510833740234,
+          "test": 0.9702510833740234
+        }
+      },
+      "inference_time": 0.03279447555541992
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.04612749442458153
+  },
+  {
+    "split": 9,
+    "val": {
+      "loss": {
+        "train": 0.12835396826267242,
+        "val": 1.0537704229354858,
+        "test": 1.4726803302764893
+      },
+      "acc": {
+        "train": 1.0,
+        "val": 0.6949152542372882,
+        "test": 0.4594594594594595
+      },
+      "precision": {
+        "train": 1.0,
+        "val": 0.5818759018759019,
+        "test": 0.3349206349206349
+      },
+      "recall": {
+        "train": 1.0,
+        "val": 0.45353535353535357,
+        "test": 0.40499999999999997
+      },
+      "f1": {
+        "train": 1.0,
+        "val": 0.4566199813258637,
+        "test": 0.34617511520737326
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4424057602882385,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.098140835762024,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 44.7400016784668,
+          "val": 44.7400016784668,
+          "test": 44.7400016784668
+        },
+        "after": {
+          "train": 37.97056579589844,
+          "val": 37.97056579589844,
+          "test": 37.97056579589844
+        },
+        "ratio": {
+          "train": 0.8486939072608948,
+          "val": 0.8486939072608948,
+          "test": 0.8486939072608948
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.6307209134101868,
+          "val": 0.6307209134101868,
+          "test": 0.6307209134101868
+        },
+        "after": {
+          "train": 0.6609051823616028,
+          "val": 0.6609051823616028,
+          "test": 0.6609051823616028
+        },
+        "ratio": {
+          "train": 1.0478568077087402,
+          "val": 1.0478568077087402,
+          "test": 1.0478568077087402
+        }
+      },
+      "inference_time": 0.028904438018798828
+    },
+    "test": {
+      "loss": {
+        "train": 0.569107711315155,
+        "val": 1.1065428256988525,
+        "test": 1.346676230430603
+      },
+      "acc": {
+        "train": 0.9080459770114943,
+        "val": 0.6610169491525424,
+        "test": 0.5405405405405406
+      },
+      "precision": {
+        "train": 0.9252165194140897,
+        "val": 0.39915966386554624,
+        "test": 0.40095238095238095
+      },
+      "recall": {
+        "train": 0.8757575757575757,
+        "val": 0.47575757575757577,
+        "test": 0.4522222222222222
+      },
+      "f1": {
+        "train": 0.8923604875071003,
+        "val": 0.4175787728026534,
+        "test": 0.4203463203463203
+      },
+      "roc_auc": {},
+      "dirichlet_energy": {
+        "real": 0.4013490676879883,
+        "imag": {}
+      },
+      "dirichlet_energy_ratio": {
+        "real": 1.0732474327087402,
+        "imag": {}
+      },
+      "effective_rank": {
+        "before": {
+          "train": 40.23212814331055,
+          "val": 40.23212814331055,
+          "test": 40.23212814331055
+        },
+        "after": {
+          "train": 36.153690338134766,
+          "val": 36.153690338134766,
+          "test": 36.153690338134766
+        },
+        "ratio": {
+          "train": 0.8986273407936096,
+          "val": 0.8986273407936096,
+          "test": 0.8986273407936096
+        }
+      },
+      "class_mix_score": {
+        "before": {
+          "train": 0.630801260471344,
+          "val": 0.630801260471344,
+          "test": 0.630801260471344
+        },
+        "after": {
+          "train": 0.6934922337532043,
+          "val": 0.6934922337532043,
+          "test": 0.6934922337532043
+        },
+        "ratio": {
+          "train": 1.0993831157684326,
+          "val": 1.0993831157684326,
+          "test": 1.0993831157684326
+        }
+      },
+      "inference_time": 0.026929616928100586
+    },
+    "params": {
+      "verbose": false,
+      "best": false,
+      "dataset": "Cornell",
+      "normalize_features": true,
+      "norm_ord": 2,
+      "norm_dim": 0,
+      "undirected": true,
+      "self_loops": 0.0,
+      "lcc": false,
+      "sparsity": 0.0,
+      "sklearn": true,
+      "layer_norm": true,
+      "hidden_channels": 64,
+      "num_layers": 32,
+      "exponent": "learnable",
+      "spectral_shift": 0.0,
+      "step_size": "learnable",
+      "channel_mixing": "d",
+      "no_sharing": true,
+      "init": "normal",
+      "real": false,
+      "equation": "ms",
+      "encoder_layers": 1,
+      "decoder_layers": 1,
+      "input_dropout": 0.0,
+      "decoder_dropout": 0.0,
+      "optimizer": "Adam",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0005,
+      "num_epochs": 1000,
+      "patience": 200,
+      "num_split": 10,
+      "gcn": false,
+      "split_id": null
+    },
+    "model_param_count": 111493,
+    "best_val_loss": 0.1369386464357376
+  }
+]

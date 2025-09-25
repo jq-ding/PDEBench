@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Cora --num_layers 128 --lr 0.01 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.2495, device='cuda:3') 
+split: 1 test_acc: tensor(0.2757, device='cuda:3') 
+split: 2 test_acc: tensor(0.2797, device='cuda:3') 
+split: 3 test_acc: tensor(0.2233, device='cuda:3') 
+split: 4 test_acc: tensor(0.2394, device='cuda:3') 
+split: 5 test_acc: tensor(0.2596, device='cuda:3') 
+split: 6 test_acc: tensor(0.2837, device='cuda:3') 
+split: 7 test_acc: tensor(0.2575, device='cuda:3') 
+split: 8 test_acc: tensor(0.2374, device='cuda:3') 
+split: 9 test_acc: tensor(0.2857, device='cuda:3') 
+test_acc_list: [array(0.24949697, dtype=float32), array(0.27565393, dtype=float32), array(0.27967805, dtype=float32), array(0.22334003, dtype=float32), array(0.23943661, dtype=float32), array(0.25955734, dtype=float32), array(0.2837022, dtype=float32), array(0.25754526, dtype=float32), array(0.23742454, dtype=float32), array(0.28571427, dtype=float32)] 
+mean: 0.25915495 
+std: 0.020594029 
+{
+    "lr": 0.01,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 3,
+    "device": "cuda:3",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 128,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Cora",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 2708,
+    "feat_dim": 1433,
+    "n_classes": 7
+}

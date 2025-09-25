@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Squirrel --num_layers 16 --lr 0.005 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.1835, device='cuda:3') 
+split: 1 test_acc: tensor(0.1960, device='cuda:3') 
+split: 2 test_acc: tensor(0.1969, device='cuda:3') 
+split: 3 test_acc: tensor(0.2075, device='cuda:3') 
+split: 4 test_acc: tensor(0.2171, device='cuda:3') 
+split: 5 test_acc: tensor(0.2267, device='cuda:3') 
+split: 6 test_acc: tensor(0.1873, device='cuda:3') 
+split: 7 test_acc: tensor(0.2104, device='cuda:3') 
+split: 8 test_acc: tensor(0.1969, device='cuda:3') 
+split: 9 test_acc: tensor(0.2008, device='cuda:3') 
+test_acc_list: [array(0.18347742, dtype=float32), array(0.19596541, dtype=float32), array(0.19692603, dtype=float32), array(0.20749278, dtype=float32), array(0.21709894, dtype=float32), array(0.22670509, dtype=float32), array(0.18731987, dtype=float32), array(0.21037464, dtype=float32), array(0.19692603, dtype=float32), array(0.20076849, dtype=float32)] 
+mean: 0.20230548 
+std: 0.012592485 
+{
+    "lr": 0.005,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 3,
+    "device": "cuda:3",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 16,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Squirrel",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 5201,
+    "feat_dim": 2089,
+    "n_classes": 5
+}

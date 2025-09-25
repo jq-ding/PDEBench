@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Texas --num_layers 4 --lr 0.01 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.5405, device='cuda:3') 
+split: 1 test_acc: tensor(0.5135, device='cuda:3') 
+split: 2 test_acc: tensor(0.2973, device='cuda:3') 
+split: 3 test_acc: tensor(0.5676, device='cuda:3') 
+split: 4 test_acc: tensor(0.4865, device='cuda:3') 
+split: 5 test_acc: tensor(0.3514, device='cuda:3') 
+split: 6 test_acc: tensor(0.2162, device='cuda:3') 
+split: 7 test_acc: tensor(0.3784, device='cuda:3') 
+split: 8 test_acc: tensor(0.4324, device='cuda:3') 
+split: 9 test_acc: tensor(0.4865, device='cuda:3') 
+test_acc_list: [array(0.5405406, dtype=float32), array(0.5135135, dtype=float32), array(0.2972973, dtype=float32), array(0.5675676, dtype=float32), array(0.4864865, dtype=float32), array(0.35135135, dtype=float32), array(0.21621622, dtype=float32), array(0.3783784, dtype=float32), array(0.43243244, dtype=float32), array(0.4864865, dtype=float32)] 
+mean: 0.42702705 
+std: 0.1079729 
+{
+    "lr": 0.01,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 3,
+    "device": "cuda:3",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 4,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Texas",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 183,
+    "feat_dim": 1703,
+    "n_classes": 5
+}

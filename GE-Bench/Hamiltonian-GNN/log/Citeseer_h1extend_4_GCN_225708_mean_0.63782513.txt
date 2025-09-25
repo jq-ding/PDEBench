@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Citeseer --num_layers 4 --lr 0.001 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.6171, device='cuda:3') 
+split: 1 test_acc: tensor(0.6381, device='cuda:3') 
+split: 2 test_acc: tensor(0.6456, device='cuda:3') 
+split: 3 test_acc: tensor(0.6502, device='cuda:3') 
+split: 4 test_acc: tensor(0.6863, device='cuda:3') 
+split: 5 test_acc: tensor(0.6108, device='cuda:3') 
+split: 6 test_acc: tensor(0.6667, device='cuda:3') 
+split: 7 test_acc: tensor(0.6201, device='cuda:3') 
+split: 8 test_acc: tensor(0.6261, device='cuda:3') 
+split: 9 test_acc: tensor(0.6171, device='cuda:3') 
+test_acc_list: [array(0.6171171, dtype=float32), array(0.6381382, dtype=float32), array(0.6456457, dtype=float32), array(0.6501502, dtype=float32), array(0.6863208, dtype=float32), array(0.6108491, dtype=float32), array(0.6666667, dtype=float32), array(0.6201201, dtype=float32), array(0.62612617, dtype=float32), array(0.6171171, dtype=float32)] 
+mean: 0.63782513 
+std: 0.023307757 
+{
+    "lr": 0.001,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 3,
+    "device": "cuda:3",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 4,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Citeseer",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 3327,
+    "feat_dim": 3703,
+    "n_classes": 6
+}

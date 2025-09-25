@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Squirrel --num_layers 2 --lr 0.01 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.4044, device='cuda:5') 
+split: 1 test_acc: tensor(0.4236, device='cuda:5') 
+split: 2 test_acc: tensor(0.4467, device='cuda:5') 
+split: 3 test_acc: tensor(0.5005, device='cuda:5') 
+split: 4 test_acc: tensor(0.5043, device='cuda:5') 
+split: 5 test_acc: tensor(0.4496, device='cuda:5') 
+split: 6 test_acc: tensor(0.4621, device='cuda:5') 
+split: 7 test_acc: tensor(0.4438, device='cuda:5') 
+split: 8 test_acc: tensor(0.3727, device='cuda:5') 
+split: 9 test_acc: tensor(0.4649, device='cuda:5') 
+test_acc_list: [0.40441882610321045, 0.42363110184669495, 0.44668588042259216, 0.5004802942276001, 0.5043227672576904, 0.4495677053928375, 0.4620557129383087, 0.4438040256500244, 0.37271854281425476, 0.4649375379085541] 
+mean: 0.44726223945617677 
+std: 0.03819382969385596 
+{
+    "lr": 0.01,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 5,
+    "device": "cuda:5",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 2,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Squirrel",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 5201,
+    "feat_dim": 2089,
+    "n_classes": 5
+}

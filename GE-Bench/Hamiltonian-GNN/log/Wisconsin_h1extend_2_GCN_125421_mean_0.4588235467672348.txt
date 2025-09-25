@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Wisconsin --num_layers 2 --lr 0.01 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.4706, device='cuda:5') 
+split: 1 test_acc: tensor(0.3725, device='cuda:5') 
+split: 2 test_acc: tensor(0.5098, device='cuda:5') 
+split: 3 test_acc: tensor(0.4510, device='cuda:5') 
+split: 4 test_acc: tensor(0.4510, device='cuda:5') 
+split: 5 test_acc: tensor(0.4706, device='cuda:5') 
+split: 6 test_acc: tensor(0.4902, device='cuda:5') 
+split: 7 test_acc: tensor(0.4118, device='cuda:5') 
+split: 8 test_acc: tensor(0.5098, device='cuda:5') 
+split: 9 test_acc: tensor(0.4510, device='cuda:5') 
+test_acc_list: [0.4705882668495178, 0.37254902720451355, 0.5098039507865906, 0.45098039507865906, 0.45098039507865906, 0.4705882668495178, 0.4901961088180542, 0.4117647111415863, 0.5098039507865906, 0.45098039507865906] 
+mean: 0.4588235467672348 
+std: 0.04037502933282545 
+{
+    "lr": 0.01,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 5,
+    "device": "cuda:5",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 2,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Wisconsin",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 251,
+    "feat_dim": 1703,
+    "n_classes": 5
+}

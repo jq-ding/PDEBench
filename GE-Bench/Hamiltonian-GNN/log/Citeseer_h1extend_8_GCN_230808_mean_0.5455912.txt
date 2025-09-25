@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Citeseer --num_layers 8 --lr 0.01 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.6471, device='cuda:3') 
+split: 1 test_acc: tensor(0.1982, device='cuda:3') 
+split: 2 test_acc: tensor(0.6291, device='cuda:3') 
+split: 3 test_acc: tensor(0.6291, device='cuda:3') 
+split: 4 test_acc: tensor(0.6533, device='cuda:3') 
+split: 5 test_acc: tensor(0.6179, device='cuda:3') 
+split: 6 test_acc: tensor(0.1922, device='cuda:3') 
+split: 7 test_acc: tensor(0.6607, device='cuda:3') 
+split: 8 test_acc: tensor(0.6532, device='cuda:3') 
+split: 9 test_acc: tensor(0.5751, device='cuda:3') 
+test_acc_list: [array(0.6471472, dtype=float32), array(0.1981982, dtype=float32), array(0.6291292, dtype=float32), array(0.6291292, dtype=float32), array(0.6533019, dtype=float32), array(0.6179245, dtype=float32), array(0.1921922, dtype=float32), array(0.6606607, dtype=float32), array(0.6531532, dtype=float32), array(0.5750751, dtype=float32)] 
+mean: 0.5455912 
+std: 0.17673628 
+{
+    "lr": 0.01,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 3,
+    "device": "cuda:3",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 8,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Citeseer",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 3327,
+    "feat_dim": 3703,
+    "n_classes": 6
+}

@@ -1,0 +1,62 @@
+main_nc_folds.py --dataset Citeseer --num_layers 2 --lr 0.005 --epoch 1000 --num_splits 10 --seed 12345
+split: 0 test_acc: tensor(0.6306, device='cuda:5') 
+split: 1 test_acc: tensor(0.6216, device='cuda:5') 
+split: 2 test_acc: tensor(0.6727, device='cuda:5') 
+split: 3 test_acc: tensor(0.6276, device='cuda:5') 
+split: 4 test_acc: tensor(0.6486, device='cuda:5') 
+split: 5 test_acc: tensor(0.6415, device='cuda:5') 
+split: 6 test_acc: tensor(0.6486, device='cuda:5') 
+split: 7 test_acc: tensor(0.6517, device='cuda:5') 
+split: 8 test_acc: tensor(0.6126, device='cuda:5') 
+split: 9 test_acc: tensor(0.6441, device='cuda:5') 
+test_acc_list: [0.6306306719779968, 0.6216216087341309, 0.672672688961029, 0.6276276707649231, 0.6485849022865295, 0.6415094137191772, 0.6486486792564392, 0.6516516804695129, 0.6126126050949097, 0.6441441774368286] 
+mean: 0.6399704098701477 
+std: 0.016431383830941598 
+{
+    "lr": 0.005,
+    "dropout": 0.2,
+    "dropoutgeo": 0.2,
+    "cuda": 5,
+    "device": "cuda:5",
+    "epoch": 1000,
+    "decay": 0.0001,
+    "optimizer": "adam",
+    "momentum": 0.999,
+    "patience": 200,
+    "seed": 12345,
+    "save": 0,
+    "save_dir": "./experiment3",
+    "sweep_c": 0,
+    "print_epoch": true,
+    "runtime": 1,
+    "task": "nc",
+    "model": "GeoGCN",
+    "hidden": 64,
+    "num_layers": 2,
+    "act": "relu",
+    "n_heads": 4,
+    "alpha": 0.2,
+    "use_att": 0,
+    "odemap": "h1extend",
+    "logmethods": "ode",
+    "kdim": 8,
+    "agg": "GCN",
+    "odemethod": "euler",
+    "step_size": 1.0,
+    "vt": "clone",
+    "sign": 1,
+    "rank": 1,
+    "dataset": "Citeseer",
+    "split_seed": 12345,
+    "random_split": false,
+    "val_prop": 0.05,
+    "test_prop": 0.1,
+    "use_feats": 1,
+    "normalize_feats": 1,
+    "normalize_adj": 1,
+    "num_splits": 10,
+    "split_id": 9,
+    "n_nodes": 3327,
+    "feat_dim": 3703,
+    "n_classes": 6
+}
